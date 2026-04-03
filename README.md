@@ -1,72 +1,72 @@
 # RoadSafe-Analytics-Road-Accidents
 
-## 1. Title
-RoadSafe Analytics: Exploratory Data Analysis of Road Accidents
-This project focuses on analyzing a large dataset of road accidents to identify patterns, trends, and key factors affecting accident severity. The analysis is performed using Exploratory Data Analysis (EDA) techniques to extract meaningful insights that can help improve road safety.
+# 1. Title  
+Accident Prediction in India: Dashboard-Based Road Accident Analysis  
 
-## 2.Problem Statement
-Road accidents are a major public safety concern worldwide. Understanding the patterns and factors that contribute to accident occurrence and severity is essential for improving road safety.
+This project focuses on analyzing a road accident dataset to identify patterns, trends, and key factors affecting accident casualties. The analysis is performed using an interactive dashboard to extract meaningful insights that can help improve road safety.
 
-This project aims to perform Exploratory Data Analysis (EDA) on a large road accident dataset to identify trends, patterns, and key factors influencing accident severity.
+# 2. Problem Statement  
+Road accidents are a major public safety concern. Understanding the patterns and factors that contribute to accident occurrence and casualties is essential for improving road safety.
 
-The analysis focuses on:
-• Identifying patterns in accident occurrences
-• Understanding factors affecting accident severity
-• Analyzing accidents based on time, location, and weather conditions
-• Detecting accident hotspots using geospatial analysis
-• Extracting insights that can support road safety improvements and policy decisions
+This project aims to analyze a road accident dataset and build a dashboard to identify trends, patterns, and key factors influencing accident casualties.
 
-## 3.Dataset Description
-The dataset used in this project is the US Accidents Dataset obtained from Kaggle.
+The analysis focuses on:  
+• Identifying patterns in accident casualties  
+• Understanding factors affecting accident severity  
+• Analyzing accidents based on time (months)  
+• Identifying accident-prone states using map visualization  
+• Extracting insights that support road safety improvements and decision-making  
 
-Dataset Source:
-https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
+# 3. Dataset Description  
+The dataset used in this project is a structured road accident dataset containing accident-related information.
 
-Dataset Characteristics:
-• Total Records: Over 4 Million accident records
-• Data Type: Structured tabular dataset
-• Geographic Coverage: United States
-• Attributes: Time, location, severity, weather conditions, road conditions, and visibility
-• Each row represents a single road accident event
+Dataset Characteristics:  
+• Data Type: Structured tabular dataset  
+• Geographic Coverage: India  
+• Attributes: casualties, fatalities, vehicles involved, road condition, driver gender, month, and state name  
+• Each row represents an accident-related record  
 
-Important Columns Include:
-• Start_Time – Time when accident occurred
-• Severity – Accident severity level
-• City and State – Location information
-• Latitude and Longitude – Geographic coordinates
-• Weather_Condition – Weather during accident
-• Visibility – Visibility distance
-• Road conditions – Traffic and road information
+Important Columns Include:  
+• Number of Casualties – Total number of people affected  
+• Number of Fatalities – Total number of deaths  
+• Number of Vehicles Involved – Vehicles involved in accidents  
+• Road Condition – Condition of the road during accidents  
+• Driver Gender – Gender-based accident involvement  
+• Month – Month-wise accident analysis  
+• State Name – Location data for map visualization  
 
-Before performing analysis, preprocessing steps such as handling missing values, datetime conversion, and feature extraction are applied.
+Before creating the dashboard, the dataset is cleaned and organized for analysis.
 
-## 4. API
-This project primarily uses publicly available datasets from Kaggle.
-No external APIs are required for data collection.
-However, Python libraries are used to process and analyze the dataset efficiently.
+# 4. API  
+This project does not use any external APIs.
 
-## 5. Dashboard Description
-The project includes multiple visualizations created during the Exploratory Data Analysis process to understand accident patterns.
+The analysis is performed using a pre-collected dataset, and all visualizations are created directly in Power BI.
 
-The dashboard and visual outputs include:
+# 5. Dashboard Description  
+The project includes a Power BI dashboard created to analyze accident patterns and casualties.
 
-• Accident frequency by time of day
-• Accident distribution by day of the week
-• Accident severity distribution
-• Weather condition impact on accidents
-• Road surface condition vs accident severity
-• Correlation analysis using heatmaps
-• Geospatial visualization of accident hotspots using latitude and longitude
+The dashboard includes:
 
-These visualizations help identify trends, high-risk areas, and key factors influencing road accidents.
+KPI Cards:  
+• Total Accidents  
+• Total Casualties  
+• Total Fatalities  
+• Vehicles Involved  
 
-## 6. Tools Used
-The following tools and technologies were used in this project:
-🐍 Python
-📊 Pandas (Data Processing)
-📈 Matplotlib (Data Visualization)
-📉 Seaborn (Statistical Visualization)
-📓 Jupyter Notebook (Analysis Environment)
-💾 GitHub (Version Control & Documentation)
+Visualizations:  
+• Casualties by Road Condition (Bar Chart)  
+• Casualties by Driver Gender (Donut Chart)  
+• Monthly Casualties Trend (Line Chart)  
+• Casualties by State (Map Visualization)  
+
+These visuals help in identifying patterns, trends, and high-risk areas related to road accidents.
+
+# 6. Tools Used  
+The following tools and technologies were used in this project:  
+• Power BI – Dashboard creation and visualization  
+• Excel / CSV – Data source  
+• GitHub – Version control and documentation  
+
+
 
 
