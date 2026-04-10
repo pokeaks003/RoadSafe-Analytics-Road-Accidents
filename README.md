@@ -1,13 +1,13 @@
 
-RoadSafe Analytics – Road Accident Analysis Dashboard
+#RoadSafe Analytics – Road Accident Analysis Dashboard
 
-1. Title
+#1.Title
 
 RoadSafe Analytics: Dashboard-Based Road Accident Analysis in India
 
 This project focuses on analyzing a road accident dataset using interactive Power BI dashboards to identify patterns, trends, and key risk factors affecting accident occurrences and casualties.
 
-2. Problem Statement
+#2. Problem Statement
 
 Road accidents are a major public safety concern in India. Understanding the patterns and factors contributing to accidents is essential for improving road safety and reducing casualties.
 
@@ -17,7 +17,7 @@ This project aims to:
 • Identify high-risk locations and conditions
 • Provide data-driven insights for improving road safety
 
-3. Dataset Description
+#3.Dataset Description
 
 The dataset used is a structured road accident dataset containing detailed accident-related information.
 
@@ -40,9 +40,9 @@ Key Attributes:
 • Month – Time-based trend analysis
 • State Name – Geographic analysis
 
-👉 Data was cleaned and transformed before building dashboards.
+ Data was cleaned and transformed before building dashboards.
 
-4. Data Processing & Modeling
+#4.Data Processing & Modeling
 
 The dataset was processed using:
 • Data Cleaning – Handling missing values and formatting
@@ -50,7 +50,7 @@ The dataset was processed using:
 • DAX Measures – KPIs and calculated metrics
 • Data Modeling – Structured for efficient dashboard analysis
 
-5. Dashboard Description
+#5.Dashboard Description
 
 The project consists of three interactive dashboards, each focusing on different aspects of accident analysis.
 
@@ -124,7 +124,7 @@ Key Insights:
 • Certain vehicle types are more accident-prone
 • Gender-based accident involvement shows variation
 
-6. Tools & Technologies Used
+#6.Tools & Technologies Used
 
 • Power BI – Dashboard creation and data visualization
 • Excel / CSV – Data source
