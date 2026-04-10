@@ -1,71 +1,138 @@
-# RoadSafe-Analytics-Road-Accidents
 
-# 1. Title  
-Accident Prediction in India: Dashboard-Based Road Accident Analysis  
+RoadSafe Analytics – Road Accident Analysis Dashboard
 
-This project focuses on analyzing a road accident dataset to identify patterns, trends, and key factors affecting accident casualties. The analysis is performed using an interactive dashboard to extract meaningful insights that can help improve road safety.
+1. Title
 
-# 2. Problem Statement  
-Road accidents are a major public safety concern. Understanding the patterns and factors that contribute to accident occurrence and casualties is essential for improving road safety.
+RoadSafe Analytics: Dashboard-Based Road Accident Analysis in India
 
-This project aims to analyze a road accident dataset and build a dashboard to identify trends, patterns, and key factors influencing accident casualties.
+This project focuses on analyzing a road accident dataset using interactive Power BI dashboards to identify patterns, trends, and key risk factors affecting accident occurrences and casualties.
 
-The analysis focuses on:  
-• Identifying patterns in accident casualties  
-• Understanding factors affecting accident severity  
-• Analyzing accidents based on time (months)  
-• Identifying accident-prone states using map visualization  
-• Extracting insights that support road safety improvements and decision-making  
+2. Problem Statement
 
-# 3. Dataset Description  
-The dataset used in this project is a structured road accident dataset containing accident-related information.
+Road accidents are a major public safety concern in India. Understanding the patterns and factors contributing to accidents is essential for improving road safety and reducing casualties.
 
-Dataset Characteristics:  
-• Data Type: Structured tabular dataset  
-• Geographic Coverage: India  
-• Attributes: casualties, fatalities, vehicles involved, road condition, driver gender, month, and state name  
-• Each row represents an accident-related record  
+This project aims to:
+• Analyze accident data to identify trends and patterns
+• Understand key factors influencing accident severity
+• Identify high-risk locations and conditions
+• Provide data-driven insights for improving road safety
 
-Important Columns Include:  
-• Number of Casualties – Total number of people affected  
-• Number of Fatalities – Total number of deaths  
-• Number of Vehicles Involved – Vehicles involved in accidents  
-• Road Condition – Condition of the road during accidents  
-• Driver Gender – Gender-based accident involvement  
-• Month – Month-wise accident analysis  
-• State Name – Location data for map visualization  
+3. Dataset Description
 
-Before creating the dashboard, the dataset is cleaned and organized for analysis.
+The dataset used is a structured road accident dataset containing detailed accident-related information.
 
-# 4. API  
-This project does not use any external APIs.
+Dataset Characteristics:
 
-The analysis is performed using a pre-collected dataset, and all visualizations are created directly in Power BI.
+• Data Type: Structured (Tabular)
+• Geographic Coverage: India
+• Each row represents an accident record
 
-# 5. Dashboard Description  
-The project includes a Power BI dashboard created to analyze accident patterns and casualties.
+Key Attributes:
 
-The dashboard includes:
+• Number of Casualties – People affected in accidents
+• Number of Fatalities – Death count
+• Number of Vehicles Involved – Vehicles per accident
+• Road Condition – Road quality during accidents
+• Weather Conditions – Environmental factors
+• Driver Gender – Gender-based analysis
+• Speed Limit – Speed-related risk factor
+• Vehicle Type – Type of vehicle involved
+• Month – Time-based trend analysis
+• State Name – Geographic analysis
 
-KPI Cards:  
-• Total Accidents  
-• Total Casualties  
-• Total Fatalities  
-• Vehicles Involved  
+👉 Data was cleaned and transformed before building dashboards.
 
-Visualizations:  
-• Casualties by Road Condition (Bar Chart)  
-• Casualties by Driver Gender (Donut Chart)  
-• Monthly Casualties Trend (Line Chart)  
-• Casualties by State (Map Visualization)  
+4. Data Processing & Modeling
 
-These visuals help in identifying patterns, trends, and high-risk areas related to road accidents.
+The dataset was processed using:
+• Data Cleaning – Handling missing values and formatting
+• Data Transformation – Creating useful fields (Month, Categories)
+• DAX Measures – KPIs and calculated metrics
+• Data Modeling – Structured for efficient dashboard analysis
 
-# 6. Tools Used  
-The following tools and technologies were used in this project:  
-• Power BI – Dashboard creation and visualization  
-• Excel / CSV – Data source  
-• GitHub – Version control and documentation  
+5. Dashboard Description
+
+The project consists of three interactive dashboards, each focusing on different aspects of accident analysis.
+
+🔹 Dashboard 1: Accident Overview & Trends
+
+This dashboard provides a high-level summary of accident data.
+
+KPI Cards:
+
+• Total Accidents
+• Total Casualties
+• Total Fatalities
+• Average Casualties per Accident
+
+Visualizations:
+
+• Accident Severity Distribution (Pie Chart)
+• Accidents by Time Category (Bar Chart)
+• Monthly Accident Trend (Line Chart)
+
+Key Insights:
+
+• Accidents are higher during night and morning periods
+• Certain months show peak accident trends
+• Severity is distributed across minor, serious, and fatal cases
+
+🔹 Dashboard 2: Road & Environmental Analysis
+
+This dashboard analyzes the impact of environmental factors.
+
+KPI Cards:
+
+• Top Weather Condition
+• Total States
+
+Visualizations:
+
+• Accidents by State (Map Visualization)
+• Accidents by Road Condition (Donut Chart)
+• Accidents by Weather Condition (Bar Chart)
+• Accidents by Road Type (Bar Chart)
+
+Key Insights:
+
+• Rainy weather contributes to higher accident frequency
+• Poor road conditions increase accident risk
+• Certain states show higher accident concentration
+
+🔹 Dashboard 3: Accident Prevention & Risk Analysis
+
+This dashboard focuses on identifying risk factors and prevention insights.
+
+KPI Cards:
+
+• Max Speed Limit
+• High-Speed Accidents
+• No Traffic Control Cases
+• Most Risky Vehicle Type
+
+Visualizations:
+
+• Accidents by Vehicle Type (Treemap)
+• Accidents by Speed Limit (Bar Chart)
+• Accidents by Driver Gender (Donut Chart)
+• Traffic Control Impact (Pie Chart)
+
+Key Insights:
+
+• High-speed driving is a major contributor to accidents
+• Lack of traffic control increases accident occurrence
+• Certain vehicle types are more accident-prone
+• Gender-based accident involvement shows variation
+
+6. Tools & Technologies Used
+
+• Power BI – Dashboard creation and data visualization
+• Excel / CSV – Data source
+• DAX (Data Analysis Expressions) – Calculations and KPIs
+• GitHub – Version control and project documentation
+
+
+
 
 
 
